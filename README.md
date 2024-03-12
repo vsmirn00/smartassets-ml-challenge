@@ -30,12 +30,13 @@ Steps 1-4 are essential for the deliverable, and steps 5-6 are optional stretch 
 ## Deliverables
 
 1. A Jupyter notebook containing your EDA, feature engineering, model selection, and evaluation process.*(Note: be ready to present this notebook to the team during the interview process, you can also make a presentation of the notebook if you want to.)*
-2. A FastAPI application codebase, including all necessary files for running the app.
-3. A Dockerfile for containerizing your application.
+
+2. A FastAPI application codebase, including all necessary files for running the app (stretch goal).
+3. A Dockerfile for containerizing your application (stretch goal).
 4. A README.md file that includes:
-   - An overview of your solution.
-   - Instructions on how to set up and run your application.
-   - A brief description of your model choice and performance metrics.
+   - An overview of your solution (essential).
+   - Instructions on how to set up and run your application (stretch goal).
+   - A brief description of your model choice and performance metrics (essential).
 
 ## Evaluation Criteria
 
