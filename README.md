@@ -52,7 +52,7 @@ The deliverables are split into two: essential & stretch goals.
 
 *Stretch Goals:*
 1. A FastAPI application codebase, including all necessary files for running the app.
-2. A Dockerfile for containerizing your application.
+2. A Dockerfile + docker-compose.yml for containerizing your application.
 3. A README.md file that includes:
    - Instructions on how to set up and run your application.
 
