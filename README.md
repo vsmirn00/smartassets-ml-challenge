@@ -6,14 +6,19 @@ This challenge is designed to evaluate your technical skills, problem-solving ab
 
 Your task is to develop an application that uses machine learning to provide time series forecasting. You will start with exploratory data analysis, proceed to model selection and feature engineering, evaluate your model, and then deploy it as a FastAPI application. The final application should be containerized using Docker.
 
-The dataset you will be working with is provided in the `data` folder, accompanied by a `dataset_description.md` file that describes the dataset in detail.
+The dataset you will be working with is provided in the `data` folder, accompanied by a `dataset_description.md` file that describes the dataset in detail. The target variable is `sales`, and you have access to several features that may help you build a predictive model. The dataset is a time series, and you will be tasked with forecasting the sales for a given date and store. 
+
+The application is built with `FastAPI` and uses `poetry` as a package manager. The application is already scaffolded so the main focus should be on the machine learning model and the API development. You would need to adjust the code minimally to be able to run properly. 
 
 ## Instructions
+Steps 1-4 are essential for the deliverable, and steps 5-6 are optional stretch goals.
 
 1. **Exploratory Data Analysis (EDA):** Begin with an exploratory data analysis to understand the dataset's characteristics, including trends, seasonality, and any outliers or anomalies.
 2. **Feature Engineering:** Create and select features that will help improve your model's predictive performance.
 3. **Model Selection:** Choose a suitable model for time series forecasting. Justify your choice.
 4. **Model Training and Evaluation:** Train your model and evaluate its performance using appropriate metrics. Aim for a model that balances accuracy and efficiency.
+
+#### Stretch Goals: 
 5. **API Development:** Develop a FastAPI application that serves your machine learning model. The API should accept input parameters relevant to your model and return a forecast.
     - Scafolding has been done for the application, you should be able to go through the applicationa and understand the structure.
     - you can find the application in the `app` folder.
